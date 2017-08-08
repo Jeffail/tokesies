@@ -1,8 +1,7 @@
 ![Tokesies](logo.png "Tokesies")
 
-A string tokenizer library for Rust, where character filters are trait based and
-can therefore carry state. Characters that separate tokens may also be
-conditionally selected to be a token themselves.
+A string tokenizer library for Rust, where characters used to separate tokens
+may also be conditionally selected to be a token themselves.
 
 There are filter implementations provided for a few basic use cases:
 
