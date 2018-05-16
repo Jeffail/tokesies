@@ -47,12 +47,5 @@ Implementation is derived largely from [this blog][0] by [@daschl][1].
 
 Contributions are very welcome, just fork and submit a pull request.
 
-## Contact
-
-Ashley Jeffs
-* Web: [http://jeffs.eu](http://jeffs.eu)
-* Twitter: [@Jeffail](https://twitter.com/Jeffail "@jeffail")
-* Email: [ash@jeffs.eu](mailto:ash@jeffs.eu)
-
 [0]: http://nitschinger.at/Text-Analysis-in-Rust-Tokenization/
 [1]: https://github.com/daschl
