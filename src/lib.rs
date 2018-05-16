@@ -66,6 +66,7 @@ mod test;
 
 pub mod filters;
 
+use std::fmt;
 use std::borrow::Cow;
 
 /// Contains context for a token extracted from an input.
@@ -91,6 +92,12 @@ impl<'a> Token<'a> {
 
     pub fn term(&self) -> &str {
         self.term.as_ref()
+    }
+}
+
+impl<'a> fmt::Debug for Token<'a> {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        write!(f, "{}", self.term())
     }
 }
 
